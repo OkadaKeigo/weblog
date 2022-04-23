@@ -1,0 +1,43 @@
+
+body{
+    margin: 0 0;
+    background: #ddd url(../images/05.png) no-repeat center center;
+    background-size: cover;
+    text-align: center;
+}
+
+header{
+    margin: 0px 0px 2em 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav a{
+    padding: 1vw 0px 8px 0px;
+    color: white;
+}
+  
+/* profileの設定 */
+.profile{
+    height: 100px + 40vw;
+    background-color: rgba(200, 200, 200, 0.8);
+}
+  
+.profile img{
+    padding: 1em 0;
+    max-height: 15em;
+    border-radius: 50%; /*画像を丸くする*/
+}
+  
+.self-introduction .row, .contact .row{
+    margin: 1em 0 0 0;
+}
+  
+.self-introduction, .contact{
+    margin: 1em 0 0 0;
+}
+  
+/* news */
+.news{
+    height: 50em;
+    background-color: rgba(200, 200, 200, 0.8);
+}
